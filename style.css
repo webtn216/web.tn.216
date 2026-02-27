@@ -61,54 +61,36 @@ transition: 0.3s ease;
 background: rgba(212, 175, 55, 0.2);
 transform: scale(1.05);
 }
-/* SECTION CONTACT MODERNE */
+/* CONTACT CLEAN */
 .contact-section {
-  padding: 100px 20px;
-  background: #111; /* adapte si ton site a un autre fond */
+  padding: 80px 0;
   text-align: center;
+  background: transparent; /* garde ton fond actuel */
 }
 
-.contact-title {
-  font-size: 38px;
-  margin-bottom: 60px;
-  color: white;
-  letter-spacing: 1px;
-}
-
-.contact-container {
+.contact-icons {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
 }
 
-.contact-card {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 18px 40px;
-  border-radius: 14px;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  color: white;
-  background: #1a1a1a;
-  border: 1px solid #222;
+/* Instagram logo */
+.contact-icons img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
   transition: 0.3s ease;
 }
 
-.contact-card:hover {
-  background: #222;
-  transform: translateY(-5px);
+/* Emoji téléphone */
+.phone-link {
+  font-size: 34px;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
-.contact-icon {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
-}
-
-/* Phone icon */
-.phone-icon {
-  font-size: 22px;
+/* Hover clean */
+.contact-icons a:hover {
+  transform: scale(1.15);
 }
