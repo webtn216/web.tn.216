@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mezen-hub.github.io/web.tn.216/sitemap.xml
