@@ -77,20 +77,14 @@ transform: scale(1.05);
 
 /* Instagram logo */
 .contact-icons img {
+    display: flex;
+  justify-content: center;
   width: 36px;
   height: 36px;
   object-fit: contain;
   transition: 0.3s ease;
 }
 
-/* Emoji téléphone */
-.phone-link {
-  font-size: 34px;
-  widht:36px
-    height:36px
-  text-decoration: none;
-  transition: 0.3s ease;
-}
 
 /* Hover clean */
 .contact-icons a:hover {
